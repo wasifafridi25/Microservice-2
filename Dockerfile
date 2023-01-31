@@ -1,9 +1,3 @@
-# FROM python:3.8-slim-buster
-# COPY zipCode_to_weather.py /home/app/
-# RUN pip install Flask requests
-# EXPOSE 8000
-# CMD ["python", "/home/app/zipCode_to_weather.py"]
-
 # Use an official Python runtime as the base image
 FROM python:3.10.2
 
